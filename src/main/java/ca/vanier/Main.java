@@ -2,8 +2,8 @@ package ca.vanier;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
 
-        System.out.println(ScoreManager.checkTheScore(10));
+        int score = Integer.parseInt(args[0]);
+        System.out.println(ScoreManager.checkTheScore(score));
     }
 }
